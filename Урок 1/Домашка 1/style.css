@@ -1,0 +1,56 @@
+table td:first-child {
+
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #69c;
+    background-color:rgba(255, 255, 255, 0.47);
+}
+
+td {
+    border: 1px dashed #69c;
+}
+
+tr:hover td {
+  background: rgba(165, 234, 255, 0.92);
+}
+.text{
+    font-weight: bold;
+    color: darkslateblue;
+}
+.text_0 {
+    font-style:italic;
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+
+h1 {
+    background-color: cadetblue;
+    text-align: center;
+    margin: 0;
+}
+footer {
+    background-color: coral;
+}
+.main1,.main2 {
+    background-color: darkkhaki;
+
+
+}
+nav {
+    background-color:crimson;
+    color: aliceblue;
+}
+ol {
+    background-color:brown;
+    color: #000000;
+}
+.img1, .img2{
+    height: 500px;
+}
+body {
+    padding: 40px;
+}
+
