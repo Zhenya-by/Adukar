@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Заголовок во вкладке</title>
+<meta charset="UTF-8"/>
+</head>
+<body>
+    <!--
+<form method="post">
+    <laber>Name</laber><input id="name" type="texy" name="name" placeholder="Введите имя">
+    <input type="number" name="age" placeholder="Введите возраст">
+    <input type="submit" value="отослать">
+    <button type="submite">отправить</button>
+    <input type="checkbox" name="v">
+
+        <select name="gender" required>
+        <option value="male" selected disabled>выбор</option>
+        <option value="fermale" >fermale</option>
+        <option value="male" >male</option>
+        <option value="other" >other</option>
+        </select>
+</form>
+-->
+    <form method="post" action="#">
+        <p>
+            <label>Пицца:<br>
+                <select name="pizza">
+                    <option value="pz1" selected disabled>Выберите пиццу</option>
+                    <option value="pz2">Веганская</option>
+                    <option value="pz3">Чеддер Чикен Клаб</option>
+                    <option value="pz4">Веганская Сырная</option>
+                    <option value="pz5">Веганская Маргарита</option>
+                    <option value="pz6">Крем Фиш</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>Дополнительные ингредиенты:<br>
+                <input type="checkbox" name="choice" value="choice1">Моцарелла<br>
+            </label>
+            <label>
+                <input type="checkbox" name="choice" value="choice2">Бекон<br>
+            </label>
+            <label>
+                <input type="checkbox" name="choice" value="choice3">Лук<br>
+            </label>
+            <label>
+                <input type="checkbox" name="choice" value="choice4">Томаты<br>
+            </label>
+        </p>
+        <p>
+            <label>Размер пиццы:
+                <br>
+            </label>
+            <label>
+                <input type="radio" name="cm" value="cm1">30см
+            </label>
+            <label>
+                <input type="radio" name="cm" value="cm2">35см
+            </label>
+            <label>
+                <input type="radio" name="cm" value="cm3">40см
+            </label>
+        <p>
+            <label>Введите имя:<br>
+                <input type="text" name="name" autocomplete placeholder="Ваше имя">
+            </label>
+        </p>
+        <p>
+            <label>Введите номер:<br>
+                <input type="number" name="tel" autocomplete required placeholder="Ваш номер">
+            </label>
+        </p>
+         <p>
+            <label>Адрес доставки:<br>
+                <input type="text" name="adres" autocomplete required placeholder="Введите адрес">
+            </label>
+        </p>
+        <p>
+            <label>
+                <textarea cols="22" rows="5" name="info" placeholder="Подъезд, этаж, кв, и тд."
+                ></textarea>
+            </label>
+        </p>
+        <button type="submit">Заказать</button>
+        <button type="reset">Сброс</button>
+
+    </form>
+</body>
+</html>

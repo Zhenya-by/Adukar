@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Заголовок во вкладке</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form method="post" action="#">
+        <div class="rating_block">Отцените товар:
+            <input id="stars_rating5" type="radio" name="stars" value="5">
+            <label for="stars_rating5" class="stars_label"></label>
+
+            <input id="stars_rating4" type="radio" name="stars" value="4">
+            <label for="stars_rating4" class="stars_label"></label>
+
+            <input id="stars_rating3" type="radio" name="stars" value="3">
+            <label for="stars_rating3" class="stars_label"></label>
+
+            <input id="stars_rating2" type="radio" name="stars" value="2">
+            <label for="stars_rating2" class="stars_label"></label>
+
+            <input id="stars_rating1" type="radio" name="stars" value="1">
+            <label for="stars_rating1" class="stars_label"></label>
+        </div>
+        <p>Оставте ваш коментарий
+            <br>
+            <textarea cols="60" rows="6" name="area" placeholder="Делитесь эмоциями о товаре. Кому бы вы его рекомендовали?"
+            ></textarea>
+        </p>
+        <p>
+            <label>Как вас зовут?
+                <input type="text" name="name" value="">
+            </label>
+        </p>
+        <p>
+            <label>Размер одежды
+                <select name="size">
+                    <option value="" selected disabled>Какой размер вы меряли?</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                </select>
+            </label>
+        </p>
+        <input type="radio" name="rang" value="min">Маломерит
+        <input checked type="radio" name="rang" value="normal">В размер
+        <input type="radio" name="rang" value="max">Большемерит
+        <p>
+            <button type="submit">Заказать</button>
+        </p>
+    </form>
+
+</body>
+</html>

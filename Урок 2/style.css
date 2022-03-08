@@ -1,0 +1,22 @@
+.rating_block {
+  width: 125px;
+  height: 25px;
+}
+.rating_block input[type="radio"] {
+  display: none;
+}
+.stars_label {
+  float: right;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url(./igm/rating.png) no-repeat 50% 0;
+  cursor: pointer;
+}
+/*Пишем правила смены положения background-а*/
+.rating_block .stars_label:hover, /*Правило для ховера на текущий лейбл*/
+.rating_block .stars_label:hover ~ .stars_label, /*Правило для всех следующих лейблов по DOM дереву*/
+.rating_block input[type="radio"]:checked ~ .stars_label/*Правило для всех следующих лейблов после выбранного инпута, чтобы звездочки как бы зафиксировались*/
+{
+  background-position: 50% -25px;
+}
